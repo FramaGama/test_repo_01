@@ -1,0 +1,12 @@
+object AppDialogsMod: TAppDialogsMod
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 312
+  HorizontalOffset = 528
+  VerticalOffset = 250
+  Width = 554
+  object OpenDialog1: TOpenDialog
+    Left = 80
+    Top = 128
+  end
+end
